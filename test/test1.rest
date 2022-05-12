@@ -1,0 +1,16 @@
+### 删除
+DELETE  http://localhost:3000/users/627cdca7b8d1de7f08a50c75 HTTP/1.1
+### 查询所有
+GET http://localhost:3000/users HTTP/1.1
+
+### 添加
+POST http://localhost:3000/users HTTP/1.1
+Content-Type: application/json
+
+{"name":"johnyu","age": 120}
+
+### 更新
+PUT  http://localhost:3000/users/627d166d799a30403f52ddb6 HTTP/1.1
+Content-Type: application/json
+
+{"_id":"627d166d799a30403f52ddb6","name":"tonny123","age":12}
